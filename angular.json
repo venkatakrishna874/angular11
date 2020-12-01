@@ -26,6 +26,11 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/style/global-vars"
+              ]
+            },
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -127,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "angular11"
+  "defaultProject": "angular11",
+  "cli": {
+    "analytics": "e8e5b895-19fc-4990-b0e9-6575b90b1bf4"
+  }
 }

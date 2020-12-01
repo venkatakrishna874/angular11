@@ -1,0 +1,12 @@
+@import "standards";
+@import "../style/app.scss";
+
+body {
+
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    background-image: url($icon-url +"caret-down-blue-16.png");
+}

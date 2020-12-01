@@ -1,0 +1,10 @@
+@media print {
+    ::ng-deep * {
+        font-size: 1em !important;
+        color: $black;
+    }
+
+    .ex-ex-big-font {
+        font-size: $title !important;
+    }
+}
